@@ -24,6 +24,17 @@
 	  width: 100%;
 	}
   }
+@media screen and (max-width : 1025px){
+	.typewriter {
+		font-size: 4rem !important;
+	}
+	.table{
+		width: 91% !important;
+	}
+	.grid-style{
+		width: 91% !important;
+	}
+}
 
 .btn {
 	border: 0 solid;
