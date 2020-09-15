@@ -3,6 +3,13 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+.avisoCelular{
+	align-self: center;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+	color: yellow;
+	display: none;
+}
 /* Create three equal columns that floats next to each other */
 .column {
 	float: left;
@@ -22,6 +29,9 @@
   @media screen and (max-width: 600px) {
 	.column {
 	  width: 100%;
+	}
+	.avisoCelular{
+		display: block;
 	}
   }
 @media screen and (max-width : 1025px){
@@ -218,7 +228,9 @@
 			max-width: 81.25rem;
 			min-width: 65rem;
 		}
-
+.column{
+	padding: 15px;
+}
 		.container.\37 5\25 {
 			width: 48.75rem;
 		}
@@ -244,7 +256,7 @@
 			max-width: 112.5%;
 			min-width: 90%;
 		}
-
+		
 		.container.\37 5\25 {
 			width: 67.5%;
 		}
@@ -272,7 +284,9 @@
 			max-width: 112.5%;
 			min-width: 90%;
 		}
-
+		.avisoCelular{
+			display: block;
+		}
 		.container.\37 5\25 {
 			width: 67.5%;
 		}
