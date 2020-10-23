@@ -3886,7 +3886,8 @@ td{
 			}
 
 				#header > a[href="#menu"]:before {
-					content: "";
+					
+					
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
 					font-family: FontAwesome;
@@ -4077,7 +4078,7 @@ td{
 			}
 
 			#menu .close:before {
-				content: '\f656';
+				
 				font-size: 1.25rem;
 			}
 
