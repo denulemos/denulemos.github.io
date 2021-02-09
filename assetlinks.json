@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.rebanking.dev",
+    "sha256_cert_fingerprints":
+    ["4A:E7:CA:D8:5C:68:1B:92:08:53:E2:9E:60:71:85:13:C9:5D:5B:B5:52:6F:AE:1D:6D:9C:EE:0B:2E:2A:CE:C2"]
+  }
+}]
